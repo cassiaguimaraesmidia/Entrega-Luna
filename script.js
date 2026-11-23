@@ -25,9 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Tenta iniciar assim que a página é aberta. Se o navegador bloquear,
-  // o controle fixo permanece disponível para iniciar com um toque.
-  startMusic();
+  // A música só é carregada depois do toque, evitando autoplay bloqueado
+  // e economizando dados móveis na abertura da página.
 
   musicToggle.addEventListener('click', async () => {
     if (music.paused) {
