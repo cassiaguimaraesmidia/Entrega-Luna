@@ -1,0 +1,21 @@
+SITE DE ENTREGA — LUNA & FAMÍLIA
+
+Conteúdo
+- index.html: página principal
+- styles.css: identidade visual e layout responsivo
+- script.js: player de música e galeria ampliável
+- assets/fotos/: quatro fotos enviadas para a página
+- assets/audio/: trilha infantil instrumental enviada para reprodução no site
+
+Publicação no GitHub Pages
+1. Extraia o ZIP.
+2. Envie o conteúdo desta pasta para a raiz de um repositório GitHub (o index.html deve ficar na raiz).
+3. No GitHub, abra Settings > Pages.
+4. Em Build and deployment, selecione Deploy from a branch; escolha a branch principal e a pasta / (root); salve.
+5. Aguarde a publicação e abra o endereço informado pelo GitHub Pages.
+
+Observações
+- Os botões de galeria abrem as fotos em tamanho ampliado.
+- O site tenta iniciar a música automaticamente ao abrir. Alguns navegadores, especialmente no iPhone, bloqueiam a reprodução automática com som; quando isso acontecer, basta tocar no controle de música na parte inferior da tela.
+- O botão “Acessar a galeria completa” abre a pasta do Google Drive informada. O acesso depende das permissões de compartilhamento dessa pasta.
+- A página usa Google Fonts quando há conexão; há fontes de fallback caso não carreguem.
